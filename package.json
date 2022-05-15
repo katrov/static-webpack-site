@@ -1,0 +1,48 @@
+{
+  "name": "static-webpack-site",
+  "version": "1.0.0",
+  "description": "шаблон для статичеких сайтов",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "eslint": "eslint --fix ./src",
+    "stylelint": "stylelint ./src/**/*.scss",
+    "prettier": "prettier --write ./src"
+  },
+  "author": {
+    "name" : "Александр Катров",
+    "email" : "a.katrov@yandex.ru"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.7",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "modern-css-reset": "^1.4.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "prettier": "^2.6.2",
+    "sass-loader": "^12.6.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "svgo-loader": "^3.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "swiper": "^8.0.7"
+  }
+}
